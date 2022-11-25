@@ -2,7 +2,7 @@ package pl.it.akademia.klasy.anonimowe;
 
 public class Car {
     public String brand;
-    String model;
+    private String model;
     int price;
 
     public Car(String brand, String model, int price) {
@@ -37,4 +37,8 @@ public class Car {
         }
         return -this.brand.compareTo(o.brand);
     }*/
+
+    public String getModel() {
+        return model;
+    }
 }
